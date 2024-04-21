@@ -504,7 +504,7 @@ function displayTheQuestions(quiz_type, quizName) {
     } else {
       timer.innerText = `${currentTime}s`;
     }
-  }, 10000);
+  }, 1000);
 
   // Add event listener for the "Next" button
   nextBtn.addEventListener("click", displayNextQuestion);
